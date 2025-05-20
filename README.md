@@ -26,7 +26,7 @@ Whether you're practicing vocabulary or just having fun, this game offers a simp
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/word-guessing-game.git
-cd word-guessing-game
+git clone https://github.com/Guichardx2/secret-word-game.git
+cd secret-word-game
 npm install
 npm run dev
