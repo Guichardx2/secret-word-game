@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+## 🎮 Word Guessing Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive word guessing game built with React and TypeScript!
 
-Currently, two official plugins are available:
+### 🧠 About the Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Challenge yourself to guess a randomly selected word based on a category hint. For each correct letter, you earn points. But be careful — you only have 3 attempts before the game ends! The game features:
 
-## Expanding the ESLint configuration
+- 🎯 Random word and category generation  
+- 🔠 Letter-by-letter guessing with input validation  
+- 🚫 Limited number of attempts with visual feedback  
+- 🧩 Display of correct and used letters  
+- 💡 Interactive info modals for alerts and tips  
+- 🎨 Clean and responsive UI using Radix UI components
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Whether you're practicing vocabulary or just having fun, this game offers a simple yet engaging experience for all ages.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🚀 Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** with Hooks  
+- **TypeScript**  
+- **Radix UI** for modern styling  
+- **React Router DOM** for navigation
+- **Gsap** for some animations
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 📦 Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```bash
+git clone https://github.com/your-username/word-guessing-game.git
+cd word-guessing-game
+npm install
+npm run dev
