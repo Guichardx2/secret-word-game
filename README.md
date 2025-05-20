@@ -16,9 +16,8 @@ Challenge yourself to guess a randomly selected word based on a category hint. F
 Whether you're practicing vocabulary or just having fun, this game offers a simple yet engaging experience for all ages.
 
 ### 🚀 Tech Stack
+> [![My Skills](https://skillicons.dev/icons?i=ts,css,vite)](https://skillicons.dev)
 
-- **React** with Hooks  
-- **TypeScript**  
 - **Radix UI** for modern styling  
 - **React Router DOM** for navigation
 - **Gsap** for some animations
