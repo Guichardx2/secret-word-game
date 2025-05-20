@@ -29,3 +29,6 @@ git clone https://github.com/Guichardx2/secret-word-game.git
 cd secret-word-game
 npm install
 npm run dev
+```
+
+#### Working on it yet...
